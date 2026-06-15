@@ -7,7 +7,7 @@ if(session_status() == PHP_SESSION_NONE){
 $host=localhost";
 $user="tiadmin";
 $password="tigazh@1234*";
-$database="triqulk6_tiecom";
+$database="triqulk6_tiecom1";
 
 $conn = mysqli_connect($host,$user,$password,$database);
 
