@@ -4,10 +4,10 @@ if(session_status() == PHP_SESSION_NONE){
     session_start();
 }
 
-$host="127.0.0.1";
-$user="root";
-$password="";
-$database="ecommerce_db";
+$host=localhost";
+$user="tiadmin";
+$password="tigazh@1234*";
+$database="triqulk6_tiecom";
 
 $conn = mysqli_connect($host,$user,$password,$database);
 
